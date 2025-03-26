@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.pyd
+
+# Virtual environments and installed packages
+venv/
+opencv_env/
+
+# Docker-specific
+*.dockerignore
+Dockerfile~
+
+# Env variables
+.env
+*.env
+
+# Media / Local data
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+recorded_video.*
+recordings/
+headshots/
+
+# Logs and local junk
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
